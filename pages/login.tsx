@@ -28,12 +28,12 @@ export default function Login() {
       <div className="w-screen h-screen flex items-center justify-center">
         <div className="h-fit flex flex-col gap-2">
           <p className="text-2xl font-bold">Login Form</p>
-          <label>Username</label>
+          <label>email</label>
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-80 h-8 px-2 border border-solid border-black rounded"
-            placeholder="username"
+            placeholder="email"
           />
           <label className="mt-4">Password</label>
           <input
